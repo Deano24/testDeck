@@ -1,7 +1,7 @@
 ---
-title       : Test deck
-subtitle    : 
-author      : 
+title       : Body Mass Index Calculator
+subtitle    : BDMI Calculator
+author      : Deano24 (Rohan Malcolm)
 job         : 
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
@@ -9,6 +9,14 @@ hitheme     : tomorrow      #
 widgets     : []            # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
 ---
+
+## App Summary
+1. The body mass index (BMI) is a measure of relative weight based on an individual's mass and height.
+2. Accuratley calculates the BDMI of a person using the basic units of society.
+3. Does automatic conversions so you don't have to.
+
+---
+
 
 ## Read-And-Delete
 
