@@ -14,6 +14,7 @@ mode        : selfcontained # {standalone, draft}
 1. The body mass index (BMI) is a measure of relative weight based on an individual's mass and height.
 2. Accuratley calculates the BMI of a person using the basic units of society.
 3. Does automatic conversions so you don't have to.
+4. BMI stands for Body Mass Index which is a ratio between weight and height.
 
 ---
 
@@ -36,8 +37,22 @@ Some individuals do not know that they are currently at a health risk due to the
 
 ## What is BMI and Why is BMI Important?
 
-1. BMI stands for Body Mass Index which is a ratio between weight and height.
-2. BMI is a tool for finding relation between body size and body fat.
-3. Carrying excess body fat, not muscle, puts you at greater risk for health problems such as heart disease, cancer, diabetes and stroke. 
+BMI is a tool for finding relation between body size and body fat. Carrying excess body fat, not muscle, puts you at greater risk for health problems such as heart disease, cancer, diabetes and stroke. 
 
+```r
+    bmi <- (97/(58*58))*703
+    if(bmi<18.5){
+      "You are under weight"
+    }else if(bmi>18.5 && bmi<24.9){
+      "You have an ideal weight"
+    }else if(bmi>24.9 && bmi<29.9){
+      "You are over weight"
+    }else{
+      "You are obese"
+    }
+```
+
+```
+## [1] "You have an ideal weight"
+```
 Enjoy :) the system it can be found here [ShinyApps](https://deano24.shinyapps.io/CourseProject/) 

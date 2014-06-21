@@ -50,6 +50,7 @@
 <li>The body mass index (BMI) is a measure of relative weight based on an individual&#39;s mass and height.</li>
 <li>Accuratley calculates the BMI of a person using the basic units of society.</li>
 <li>Does automatic conversions so you don&#39;t have to.</li>
+<li>BMI stands for Body Mass Index which is a ratio between weight and height.</li>
 </ol>
 
   </article>
@@ -90,11 +91,22 @@ Some individuals do not know that they are currently at a health risk due to the
     <h2>What is BMI and Why is BMI Important?</h2>
   </hgroup>
   <article data-timings="">
-    <ol>
-<li>BMI stands for Body Mass Index which is a ratio between weight and height.</li>
-<li>BMI is a tool for finding relation between body size and body fat.</li>
-<li>Carrying excess body fat, not muscle, puts you at greater risk for health problems such as heart disease, cancer, diabetes and stroke. </li>
-</ol>
+    <p>BMI is a tool for finding relation between body size and body fat. Carrying excess body fat, not muscle, puts you at greater risk for health problems such as heart disease, cancer, diabetes and stroke. </p>
+
+<pre><code class="r">    bmi &lt;- (97/(58*58))*703
+    if(bmi&lt;18.5){
+      &quot;You are under weight&quot;
+    }else if(bmi&gt;18.5 &amp;&amp; bmi&lt;24.9){
+      &quot;You have an ideal weight&quot;
+    }else if(bmi&gt;24.9 &amp;&amp; bmi&lt;29.9){
+      &quot;You are over weight&quot;
+    }else{
+      &quot;You are obese&quot;
+    }
+</code></pre>
+
+<pre><code>## [1] &quot;You have an ideal weight&quot;
+</code></pre>
 
 <p>Enjoy :) the system it can be found here <a href="https://deano24.shinyapps.io/CourseProject/">ShinyApps</a> </p>
 

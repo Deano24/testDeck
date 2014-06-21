@@ -1,10 +1,4 @@
 base
-datasets
 devtools
-graphics
-grDevices
-methods
 shinyapps
 slidify
-stats
-utils
