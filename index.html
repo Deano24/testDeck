@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Test deck</title>
+  <title>Body Mass Index Calculator</title>
   <meta charset="utf-8">
-  <meta name="description" content="Test deck">
-  <meta name="author" content="">
+  <meta name="description" content="Body Mass Index Calculator">
+  <meta name="author" content="Deano24 (Rohan Malcolm)">
   <meta name="generator" content="slidify" />
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta http-equiv="X-UA-Compatible" content="chrome=1">
@@ -32,9 +32,9 @@
     <!-- LOGO SLIDE -->
         <slide class="title-slide segue nobackground">
   <hgroup class="auto-fadein">
-    <h1>Test deck</h1>
-    <h2></h2>
-    <p><br/></p>
+    <h1>Body Mass Index Calculator</h1>
+    <h2>BMI Calculator</h2>
+    <p>Deano24 (Rohan Malcolm)<br/></p>
   </hgroup>
   <article></article>  
 </slide>
@@ -43,28 +43,41 @@
     <!-- SLIDES -->
     <slide class="" id="slide-1" style="background:;">
   <hgroup>
-    <h2>Read-And-Delete</h2>
+    <h2>App Summary</h2>
   </hgroup>
   <article data-timings="">
     <ol>
-<li>Edit YAML front matter</li>
-<li>Write using R Markdown</li>
-<li>Use an empty line followed by three dashes to separate slides!</li>
+<li>The body mass index (BMI) is a measure of relative weight based on an individual&#39;s mass and height.</li>
+<li>Accuratley calculates the BMI of a person using the basic units of society.</li>
+<li>Does automatic conversions so you don&#39;t have to.</li>
+<li>The system uses the calculation \[(\frac{weight}{height^2})*703\] to get the BMI and then compares that to static values to make its decision.</li>
 </ol>
 
   </article>
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="class" id="id" style="background:;">
+<slide class="" id="slide-2" style="background:;">
   <hgroup>
-    <h2>Slide 2</h2>
+    <h2>What is BMI and Why is BMI Important?</h2>
   </hgroup>
   <article data-timings="">
-    <pre><code class="r">plot(1:10, 1:10)
-</code></pre>
+    <ol>
+<li>BMI stands for Body Mass Index which is a ratio between weight and height.</li>
+<li>BMI is a tool for finding relation between body size and body fat.</li>
+<li>Carrying excess body fat, not muscle, puts you at greater risk for health problems such as heart disease, cancer, diabetes and stroke. </li>
+</ol>
 
-<p><img src="assets/fig/unnamed-chunk-1.png" alt="plot of chunk unnamed-chunk-1"> </p>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>Enjoy :)</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Enjoy the system it can be found here <a href="https://deano24.shinyapps.io/CourseProject/">ShinyApps</a>    </p>
 
   </article>
   <!-- Presenter Notes -->
@@ -76,14 +89,20 @@
     <ul>
       <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=1 title='Read-And-Delete'>
+        data-slide=1 title='App Summary'>
          1
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=2 title='Slide 2'>
+        data-slide=2 title='What is BMI and Why is BMI Important?'>
          2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Enjoy :)'>
+         3
       </a>
     </li>
   </ul>
@@ -96,7 +115,21 @@
 </body>
   <!-- Load Javascripts for Widgets -->
   
-  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <!-- MathJax: Fall back to local if CDN offline but local image fonts are not supported (saves >100MB) -->
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [['$','$'], ['\\(','\\)']],
+        processEscapes: true
+      }
+    });
+  </script>
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  <!-- <script src="https://c328740.ssl.cf1.rackcdn.com/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script> -->
+  <script>window.MathJax || document.write('<script type="text/x-mathjax-config">MathJax.Hub.Config({"HTML-CSS":{imageFont:null}});<\/script><script src="libraries/widgets/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"><\/script>')
+</script>
+<!-- LOAD HIGHLIGHTER JS FILES -->
   <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
   <script>hljs.initHighlightingOnLoad();</script>
   <!-- DONE LOADING HIGHLIGHTER JS FILES -->
