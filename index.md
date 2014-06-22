@@ -20,7 +20,7 @@ mode        : selfcontained # {standalone, draft}
 
 ## Why this App
 
-I built this app because obesity is body size can be directly related to health issues such as: malnutrition and obesity. There can be several reasons why a person can have a certain body size (muscle builders, high metaboloc rates and so on) but in a large amount of cases it is down to poor health choices.
+I built this app because obesity, malnutrition and other health issues are directly related to a persons BMI. Several reasons exist as to why a person becomes large, obese, skinny and so on; some common reasons are over eating, wrong eating patterns, etc. Over all a large amount is down to poor eating habits and health habits.
 Some individuals do not know that they are currently at a health risk due to their body size and I hope that this application can allow persons to quickly and efficiently calculate their BMI and use this information to make better health related choices.
 
 ---
